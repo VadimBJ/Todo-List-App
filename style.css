@@ -1,0 +1,62 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px; /* 1rem */
+  width: 300px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.tasks {
+  display: flex;
+  justify-content: center;
+}
+
+.tasks button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tasks label {
+  cursor: pointer;
+}
+.tasks input {
+  margin-left: 20px;
+  cursor: pointer;
+}
+#taskList {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.line {
+  position: relative;
+}
+li span {
+  left: 200px;
+}
+li button {
+  position: absolute;
+  left: -90px;
+}
+li button:hover {
+  background-color: rgb(246, 83, 83);
+  color: beige;
+}
